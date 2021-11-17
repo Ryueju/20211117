@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+	font-weight:bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #c0c0c0;
+}
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #8080c0;
+}
+.active {
+	
+    background-color: #4530bc;
+}
